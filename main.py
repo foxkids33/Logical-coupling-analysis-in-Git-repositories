@@ -55,6 +55,6 @@ def main(owner, repo):
 
 if __name__ == "__main__":
     if len(argv) != 3:
-        print("Usage: python github_collab.py <owner> <repo>")
+        print("Usage: python3 main.py <owner> <repo>")
     else:
         main(argv[1], argv[2])
